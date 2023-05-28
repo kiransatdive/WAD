@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration Form</title>
+
+</head>
+
+<body>
+
+	<center>
+		<h1>Registration Form</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<td><input type="text" name="fname" id="fname"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Last Name</th>
+					<td><input type="text" name="lname" id="lname"></td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><input type="text" name="email" id="email"></td>
+				</tr>
+				<tr>
+					<th>Address</th>
+					<td><input type="text" name="address" id="address"></td>
+				</tr>
+				<tr>
+					<th>Phone</th>
+					<td><input type="text" name="Phone" id="Phone"></td>
+				</tr>
+				<tr>
+					<th>Password</th>
+					<td><input type="text" name="Password" id="Password"></td>
+				</tr>
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Submit" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table><br>
+	</center>
+
+	<table border="2" id="show">
+		<thead>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+				<th>Address</th>
+				<th>Phone</th>
+				<th>Password</th>
+
+
+			</tr>
+		</thead>
+	</table>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
